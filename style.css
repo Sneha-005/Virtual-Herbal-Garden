@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.header {
+    background-color: rgb(44, 101, 41);
+    text-align: center;
+    color: #f7f7f7;
+    font-size: 20px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+.header a:hover {
+    text-decoration: none;
+    color: #0b3717;
+}
+
+.hero {
+    background-image: url('images/plantbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+}
+
+.hero-heading {
+    font-size: 60px;
+}
+
+.form-control {
+    width: 50%;
+}
+
+.about {
+    background-color: rgb(164, 188, 141);
+}
+
+.about-img-div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 5px double rgb(17, 101, 32);
+    overflow: hidden;
+}
+
+.about-img {
+    width: 200px;
+    height: 200px;
+}
+
+.whats-new h1,
+p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.did-know {
+    padding: 20px 90px;
+}
+
+.did-heading {
+    font-size: 2.625em;
+    font-style: oblique;
+    color: rgb(36, 109, 56);
+}
+
+.idea-img {
+    width: 100px;
+    height: 120px;
+}
+
+.tag {
+    background-color: rgb(112, 170, 100);
+    color: rgb(159, 65, 44);
+    text-align: center;
+    font-size: 12px;
+    padding: 1px;
+}
+
+.tag-line {
+    font-size: 14px;
+    padding: 1px;
+    margin: 0;
+}
+
+.footer {
+    color: white;
+    background-color: rgb(101, 136, 94);
+    width: 100%;
+}
+
+.footer h6 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    padding: 5px 0;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer p {
+    padding: 5px 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
